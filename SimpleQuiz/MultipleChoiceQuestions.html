@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="utf-8" />
+    <title>Multiple Choice Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    } 
+    body {
+        /* background: #eee; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    } 
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    /* .swiper-slide {
+        text-align: center; 
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; 
+    } */
+    
+</style>
+  </head>
+  <body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <form class="swiper-wrapper" action="" method="post" onsubmit="return confirm('Do you really want to submit your answer?');">
+      <div class="swiper-slide">
+      <b>1:How many states are there in the United States of America?</b>
+      <br />
+      <input type="radio" name="question1-answer" />A.49
+      <br />
+      <input type="radio" name="question1-answer" />B.50
+      <br />
+      <input type="radio" name="question1-answer" />C.51
+      <br />
+      <input type="radio" name="question1-answer" />D.52
+      <br /></div>
+      <div class="swiper-slide">
+      <b>2:Which is the largest state in the USA?</b>
+      <br />
+      <input type="radio" name="question2-answer" />A.Alaska
+      <br />
+      <input type="radio" name="question2-answer" />B.Texas
+      <br />
+      <input type="radio" name="question2-answer" />C.Montana
+      <br />
+      <input type="radio" name="question2-answer" />D.California
+      <br /></div>
+      <div class="swiper-slide">
+      <b>3:Who holds the record for most regular season wins in a single season?</b>
+      <br />
+      <input type="radio" name="question3-answer" />A.1972 Los Angeles Lakers
+      <br />
+      <input type="radio" name="question3-answer" />B.2016 Golden State Warriors
+      <br />
+      <input type="radio" name="question3-answer" />C.2017 Brooklyn Nets
+      <br />
+      <input type="radio" name="question3-answer" />D.1996 Chicago Bulls
+      <br /></div>
+      <div class="swiper-slide">
+      <b>4:How many championships have the Boston Celtics won between 1970-2000?</b>
+      <br />
+      <input type="radio" name="question4-answer" />A.6
+      <br />
+      <input type="radio" name="question4-answer" />B.8
+      <br />
+      <input type="radio" name="question4-answer" />C.7
+      <br />
+      <input type="radio" name="question4-answer" />D.5
+      <br /></div>
+      <div class="swiper-slide">
+      <b>5:On what position does Stephen Curry plays?</b>
+      <br />
+      <input type="radio" name="question5-answer" />A.Small Forward
+      <br />
+      <input type="radio" name="question5-answer" />B.Power Forward
+      <br />
+      <input type="radio" name="question5-answer" />C.Shooting Guard
+      <br />
+      <input type="radio" name="question5-answer" />D.Point Guard
+      <br />
+      <input type="submit" name="submit" value="submit" /> 
+      <input type="reset" name="reset" value="reset" /></div>
+    </form>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script> 
+  <!-- Initialize Swiper -->
+   
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30
+    });
+    
+</script></body>
+</html>
